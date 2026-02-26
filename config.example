@@ -1,0 +1,18 @@
+cat > config.example << 'EOF'
+# wl-snip example config
+
+# MODE can be "clipboard" or "file"
+MODE="clipboard"
+
+# Screenshot quality (only if your script uses it)
+QUALITY=0
+
+# Timeout for notification in milliseconds
+NOTIFY_TIMEOUT=1000
+
+# Directory to save files (only used if MODE="file")
+SAVE_DIR="$HOME/Pictures"
+
+# Filename format for saved files
+FILENAME_FORMAT="%Y-%m-%d_%H-%M-%S"
+EOF
